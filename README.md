@@ -105,12 +105,22 @@ The repository includes a responsive Chart.js dashboard that translates the veri
 
 ## Education & Professional Development
 
+### Education
+
 - **UNISA** — Business Administration
 - **UNISA** — Higher Certificate in Insurance, NQF Level 5
 - **South-West Gauteng College** — Management, NQF Level 4
+
+### Certifications
+
+- **Microsoft Certified: Azure Data Scientist Associate** — Microsoft · Issued Nov 2025 · Expires Nov 2026
+- **Microsoft Certified: Power BI Data Analyst Associate** — Microsoft · Issued Oct 2025
+- **Introduction to Data Analytics** — TAFE NSW · Issued Oct 2025
+- **Oracle Cloud Infrastructure 2025 Certified Data Science Professional** — Oracle · Issued Jul 2025 · Expires Jul 2027
+- **Oracle Analytics Cloud 2025 Professional** — Oracle · Issued Jul 2025 · **Expired Jul 2025**
 - **Lean Six Sigma Black Belt**
 
-Credential links will be added only when a public verification record is available.
+Public verification links will be added only when the corresponding credential URLs are available.
 
 ## Career Focus
 
