@@ -92,7 +92,7 @@ A fixed 0.5 threshold produces **95.2% accuracy but 0% recall** on the current s
 
 The repository includes a responsive Chart.js dashboard that translates the verified synthetic-model results into an operational review-capacity view. It demonstrates class imbalance, capacity trade-offs, an illustrative review queue, and explicit human-in-the-loop controls.
 
-**[View the dashboard source →](./claims-dashboard.html)**
+**[Open the live dashboard →](https://garethmackenzie.github.io/GarethMackenzie/claims-dashboard.html)** · [View source](./claims-dashboard.html)
 
 > Portfolio demo — synthetic data only. The dashboard is not a live employer system and contains no customer, policyholder, claim, or employer-confidential information.
 
