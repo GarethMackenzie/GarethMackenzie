@@ -2,9 +2,9 @@
 
 # Gareth Andrew Mackenzie
 
-**Insurance Analytics · Data & BI · Fraud Detection · Process Optimization**
+**Data Analytics · Business Intelligence · Analytics Engineering · Applied Machine Learning**
 
-Turning insurance operations data into clear decisions, stronger controls, and measurable process improvement.
+I build analytical systems that turn operational data into clear, measurable decisions using Power BI, Python, SQL, data modelling and machine learning.
 
 Johannesburg, South Africa
 
@@ -14,126 +14,69 @@ Johannesburg, South Africa
 
 ---
 
-## Professional Profile
+## Featured projects
 
-I work at the intersection of **insurance operations, claims analytics, risk, and process improvement**. My background combines hands-on claims experience with applied analytics using Python, SQL, Power BI, Excel, and machine-learning techniques.
+### 01 | Insurance Claims Intelligence
 
-I focus on practical questions: where risk is concentrated, which work should be reviewed first, how processes can be measured and improved, and how analytical outputs can support sound operational judgement.
+**Power BI · Analytics Engineering · Data Quality · SQL · Python**
 
-## Professional Impact
+A source-controlled Power BI decision-support project built on 75,000 synthetic claims. The repository contains an editable PBIP/PBIR report, a TMDL semantic model, 79 explicit DAX measures, Power Query transformations, SQL analysis, a deterministic Python data pipeline, 8 report pages and 33 automated QA checks. GitHub Actions rebuilds and validates the project on every push and pull request.
 
-> These outcomes relate to professional claims and operations work. They are separate from the synthetic portfolio project below.
+[View the flagship project](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi) · [Review the QA workflow](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi/actions)
+
+### 02 | Motor Claims Risk Triage
+
+**Applied Machine Learning · Decision Science · Model Governance**
+
+A synthetic-data case study for capacity-constrained review prioritisation. The project compares classification approaches through a leakage-safe pipeline, stratified cross-validation, an untouched holdout set and ranking metrics at practical review capacities. It also examines model explainability, sensitive-feature governance and human oversight.
+
+[View the machine-learning project](https://github.com/GarethMackenzie/motor-claims-triage)
+
+> Both repositories use synthetic data. Their analytical results are portfolio evidence, not employer results or production performance.
+
+## Technical stack
+
+| Area | Tools and methods |
+|---|---|
+| Analytics and programming | Python · SQL · R · Excel |
+| Business intelligence | Power BI · DAX · Power Query · Tableau |
+| Data modelling and analytics engineering | Dimensional modelling · Semantic modelling · PBIP · PBIR · TMDL · Data quality |
+| Machine learning | scikit-learn · XGBoost · Imbalanced classification · Model evaluation |
+| Engineering and delivery | Git · GitHub · GitHub Actions · CI/CD · Testing |
+
+## Professional profile
+
+My background combines business and operations experience with applied analytics. I work on data quality, performance measurement, process improvement, risk-aware decision support and communication for operational and executive audiences. Insurance and claims are established areas of domain knowledge, not the limit of my analytical work.
+
+## Professional impact
+
+These outcomes relate to professional claims and operations work. They are separate from the synthetic portfolio results above.
 
 | Area | Outcome |
 |---|---:|
-| Claims handling | **40% faster** following process redesign |
-| Fraud identified / prevented | **R500K+** |
-| Claims managed | **~200 motor and agricultural claims per month** |
+| Claims handling | 40% faster following process redesign |
+| Fraud identified or prevented | R500K+ |
+| Claims managed | Approximately 200 motor and agricultural claims per month |
 
-## Core Capabilities
+## Experience
 
-- Insurance and claims analytics
-- Fraud-risk triage and review prioritization
-- Business intelligence and operational reporting
-- Process optimization and performance measurement
-- Data quality, controls, and risk-aware decision support
-- Stakeholder communication across operational and technical teams
+- Insurance Specialist, Old Mutual Insure (Oct 2023 to present)
+- Claims Specialist, Auto & General Australia (Oct 2022 to Jun 2023)
+- Customer Support Specialist, Bob Group (Oct 2021 to Sep 2022)
+- Associate Claims Coordinator, Innovation Group South Africa (Sep 2018 to Aug 2020)
 
-## Technical Stack
+## Certifications
 
-| Area | Tools |
-|---|---|
-| **Analytics & Programming** | Python · SQL · R · Excel / VBA |
-| **Business Intelligence & Visualization** | Power BI · Tableau · Chart.js |
-| **Machine Learning** | scikit-learn · XGBoost · SMOTE |
-| **Delivery & Tooling** | Streamlit · Git · GitHub |
+- Microsoft Certified: Azure Data Scientist Associate, issued Nov 2025, expires Nov 2026
+- Microsoft Certified: Power BI Data Analyst Associate, issued Oct 2025
+- Oracle Cloud Infrastructure 2025 Certified Data Science Professional, issued Jul 2025, expires Jul 2027
+- Introduction to Data Analytics, TAFE NSW, issued Oct 2025
+- Lean Six Sigma Black Belt
 
-## Flagship Portfolio Case Study
+Credential links will be added only when the corresponding public verification URLs are available.
 
-### Motor Claims Fraud Triage
+## Career focus
 
-**Portfolio project — synthetic data only.** No customer, policyholder, claim, or employer-confidential data is used.
+Senior Data Analyst · Data Analytics · Business Intelligence · Analytics Engineering · Operations Analytics · Decision Support · Data Science
 
-The case study asks a practical insurance question:
-
-> How can a claims team concentrate limited review capacity on higher-risk claims without treating a model score as an automatic fraud decision?
-
-The workflow generates synthetic claims, validates and prepares features, scores claim-level risk with XGBoost, and ranks claims for human review. SMOTE is applied to the training fold only, after the train/test split, to avoid evaluation leakage.
-
-**[View the project, tests, and executed notebook →](https://github.com/GarethMackenzie/motor-claims-triage)**
-
-### Portfolio Model Performance
-
-> Reproducible results from the public project. These describe one synthetic test set—not production performance or professional business outcomes.
-
-| Metric | Result |
-|---|---:|
-| Test claims | **2,000** |
-| Synthetic positive-label rate | **4.65%** |
-| ROC-AUC | **0.719** |
-| Precision at top-10% review capacity | **12.5%** |
-| Recall at top-10% review capacity | **26.9%** |
-| False-positive rate at top-10% review capacity | **9.2%** |
-| Lift over random review | **2.7×** |
-
-A fixed 0.5 threshold produces **95.2% accuracy but 0% recall** on the current synthetic test set. The result illustrates why imbalanced classification should be evaluated against operational review capacity, not headline accuracy alone. See the project’s [generated metrics](https://github.com/GarethMackenzie/motor-claims-triage/blob/main/results/metrics.json) and [documented limitations](https://github.com/GarethMackenzie/motor-claims-triage#limitations).
-
-## Fraud Detection Pipeline
-
-<div align="center">
-
-<img src="./fraud-detection-pipeline.gif" alt="Animated five-step portfolio pipeline showing synthetic claims intake, data validation and features, XGBoost risk scoring, priority review queue, and analyst decision support" width="100%">
-
-</div>
-
-**Model score → review priority → analyst investigation → operational decision.** The model informs the queue; it does not automatically reject, decline, or repudiate a claim.
-
-## Claims Intelligence Dashboard
-
-The repository includes a responsive Chart.js dashboard that translates the verified synthetic-model results into an operational review-capacity view. It demonstrates class imbalance, capacity trade-offs, an illustrative review queue, and explicit human-in-the-loop controls.
-
-**[Open the live dashboard →](https://garethmackenzie.github.io/GarethMackenzie/claims-dashboard.html)** · [View source](./claims-dashboard.html)
-
-> Portfolio demo — synthetic data only. The dashboard is not a live employer system and contains no customer, policyholder, claim, or employer-confidential information.
-
-## Professional Experience
-
-- **Insurance Specialist — Old Mutual Insure** · Oct 2023 – Present
-- **Claims Specialist — Auto & General Australia** · Oct 2022 – Jun 2023
-- **Customer Support Specialist — Bob Group** · Oct 2021 – Sep 2022
-- **Associate Claims Coordinator — Innovation Group South Africa** · Sep 2018 – Aug 2020
-
-## Education & Professional Development
-
-### Education
-
-- **UNISA** — Business Administration
-- **UNISA** — Higher Certificate in Insurance, NQF Level 5
-- **South-West Gauteng College** — Management, NQF Level 4
-
-### Certifications
-
-- **Microsoft Certified: Azure Data Scientist Associate** — Microsoft · Issued Nov 2025 · Expires Nov 2026
-- **Microsoft Certified: Power BI Data Analyst Associate** — Microsoft · Issued Oct 2025
-- **Introduction to Data Analytics** — TAFE NSW · Issued Oct 2025
-- **Oracle Cloud Infrastructure 2025 Certified Data Science Professional** — Oracle · Issued Jul 2025 · Expires Jul 2027
-- **Oracle Analytics Cloud 2025 Professional** — Oracle · Issued Jul 2025 · **Expired Jul 2025**
-- **Lean Six Sigma Black Belt**
-
-Public verification links will be added only when the corresponding credential URLs are available.
-
-## Career Focus
-
-I am interested in roles where analytics, insurance domain knowledge, and operational problem-solving need to work together.
-
-**Target areas:** Data Analytics · Business Intelligence · Insurance Analytics · Risk Analytics · Fraud Analytics · Operations Analytics
-
----
-
-<div align="center">
-
-**Data → Insight → Decision → Impact**
-
-[Email](mailto:gamackenzie@live.com) · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/) · [GitHub](https://github.com/GarethMackenzie)
-
-</div>
+Insurance analytics remains a secondary domain specialism.
