@@ -1,6 +1,6 @@
 <div align="center">
 
-# Gareth Andrew Mackenzie
+# Gareth Mackenzie
 
 **Data Analytics · Business Intelligence · Analytics Engineering · Applied Machine Learning**
 
