@@ -1,82 +1,73 @@
-<div align="center">
-
 # Gareth Mackenzie
 
-**Data Analytics · Business Intelligence · Analytics Engineering · Applied Machine Learning**
+**Analytics Engineering · Business Intelligence · Decision Science · Process Excellence**
 
-I build analytical systems that turn operational data into clear, measurable decisions using Power BI, Python, SQL, data modelling and machine learning.
+I build governed analytical and decision systems using Power BI, Python and SQL, with an emphasis on reproducibility, transparent assumptions, data quality and responsible use.
 
-Johannesburg, South Africa
+Johannesburg, South Africa · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/)
 
-[Email](mailto:gamackenzie@live.com) · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/) · [GitHub](https://github.com/GarethMackenzie)
+## Selected systems
 
-</div>
+### [Insurance Claims Intelligence](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi)
 
----
+Source-controlled Power BI decision support for synthetic claims performance, financial exposure, service, operations and risk-based human review.
 
-## Featured projects
+`Power BI · PBIP/PBIR · TMDL · DAX · Power Query · Python · SQL · GitHub Actions`
 
-### 01 | Insurance Claims Intelligence
+**Engineering evidence:** deterministic data pipeline, governed star schema, editable semantic model, 79 explicit DAX measures, 8 report pages, automated QA and hosted CI.
 
-**Power BI · Analytics Engineering · Data Quality · SQL · Python**
+[Repository](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi) · [Actions](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi/actions)
 
-A source-controlled Power BI decision-support project built on 75,000 synthetic claims. The repository contains an editable PBIP/PBIR report, a TMDL semantic model, 79 explicit DAX measures, Power Query transformations, SQL analysis, a deterministic Python data pipeline, 8 report pages and 33 automated QA checks. GitHub Actions rebuilds and validates the project on every push and pull request.
+### [Motor Claims Risk Triage](https://github.com/GarethMackenzie/motor-claims-triage)
 
-[View the flagship project](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi) · [Review the QA workflow](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi/actions)
+Machine-learning decision support for capacity-constrained review prioritisation using synthetic claims data. The project compares multiple classification approaches through leakage-safe pipelines, stratified cross-validation and an untouched holdout set.
 
-### 02 | Motor Claims Risk Triage
+`Python · scikit-learn · XGBoost · Model Evaluation · Decision Science · Governance · GitHub Actions`
 
-**Applied Machine Learning · Decision Science · Model Governance**
+**Engineering evidence:** ranking metrics tied to review capacity, reproducible experiment orchestration, sensitive-feature governance, explainability, automated tests and hosted CI.
 
-A synthetic-data case study for capacity-constrained review prioritisation. The project compares classification approaches through a leakage-safe pipeline, stratified cross-validation, an untouched holdout set and ranking metrics at practical review capacities. It also examines model explainability, sensitive-feature governance and human oversight.
+[Repository](https://github.com/GarethMackenzie/motor-claims-triage) · [Actions](https://github.com/GarethMackenzie/motor-claims-triage/actions)
 
-[View the machine-learning project](https://github.com/GarethMackenzie/motor-claims-triage)
+### [Banking Process Excellence](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma)
 
-> Both repositories use synthetic data. Their analytical results are portfolio evidence, not employer results or production performance.
+Lean Six Sigma DMAIC analytics for a fictional retail-banking onboarding and KYC process, built entirely with synthetic data.
 
-## Technical stack
+`Python · Lean Six Sigma · DMAIC · SPC · MSA · DOE · Regression · Process Analytics · GitHub Actions`
 
-| Area | Tools and methods |
-|---|---|
-| Analytics and programming | Python · SQL · R · Excel |
-| Business intelligence | Power BI · DAX · Power Query · Tableau |
-| Data modelling and analytics engineering | Dimensional modelling · Semantic modelling · PBIP · PBIR · TMDL · Data quality |
-| Machine learning | scikit-learn · XGBoost · Imbalanced classification · Model evaluation |
-| Engineering and delivery | Git · GitHub · GitHub Actions · CI/CD · Testing |
+**Engineering evidence:** deterministic 100,000-application simulation, measurement-system analysis, statistical diagnosis, replicated factorial DOE, pilot/control analysis, reproducible QA and hosted CI.
 
-## Professional profile
+[Repository](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma) · [Actions](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma/actions)
 
-My background combines business and operations experience with applied analytics. I work on data quality, performance measurement, process improvement, risk-aware decision support and communication for operational and executive audiences. Insurance and claims are established areas of domain knowledge, not the limit of my analytical work.
+> Portfolio projects use synthetic or public data and are designed to demonstrate engineering and analytical methods. They do not contain customer, policyholder or employer-confidential data.
 
-## Professional impact
+## Engineering focus
 
-These outcomes relate to professional claims and operations work. They are separate from the synthetic portfolio results above.
+- **Analytics Engineering** — reproducible pipelines, dimensional modelling, governed transformations, data-quality controls and CI.
+- **Power BI & Semantic Modelling** — PBIP/PBIR, TMDL, DAX, Power Query and inspectable decision-support models.
+- **Decision Science & Applied ML** — leakage-safe evaluation, ranking metrics, human-in-the-loop workflows and responsible model governance.
+- **Operational & Process Intelligence** — Lean Six Sigma, process measurement, SPC, MSA, DOE, root-cause analysis and performance improvement.
 
-| Area | Outcome |
-|---|---:|
-| Claims handling | 40% faster following process redesign |
-| Fraud identified or prevented | R500K+ |
-| Claims managed | Approximately 200 motor and agricultural claims per month |
+## How I build
 
-## Experience
+- Reproducible by default, with deterministic inputs and explicit build paths.
+- Business semantics and metric definitions before dashboards or models.
+- Automated QA before presentation, with failures treated as evidence rather than hidden.
+- Clear lineage, assumptions and limitations so analytical claims remain inspectable.
+- Human oversight for risk-sensitive decisions and careful separation of association from causality.
 
-- Insurance Specialist, Old Mutual Insure (Oct 2023 to present)
-- Claims Specialist, Auto & General Australia (Oct 2022 to Jun 2023)
-- Customer Support Specialist, Bob Group (Oct 2021 to Sep 2022)
-- Associate Claims Coordinator, Innovation Group South Africa (Sep 2018 to Aug 2020)
+## Background
 
-## Certifications
+My background combines insurance and operations experience with analytics engineering, process improvement, internal controls and risk-aware decision support. I focus on translating operational problems into measurable analytical systems that can be reviewed by both technical and business stakeholders.
 
-- Microsoft Certified: Azure Data Scientist Associate, issued Nov 2025, expires Nov 2026
-- Microsoft Certified: Power BI Data Analyst Associate, issued Oct 2025
-- Oracle Cloud Infrastructure 2025 Certified Data Science Professional, issued Jul 2025, expires Jul 2027
-- Introduction to Data Analytics, TAFE NSW, issued Oct 2025
+For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/).
+
+## Selected credentials
+
+- Microsoft Certified: Power BI Data Analyst Associate
+- Microsoft Certified: Azure Data Scientist Associate
+- Oracle Cloud Infrastructure Data Science Professional
 - Lean Six Sigma Black Belt
 
-Credential links will be added only when the corresponding public verification URLs are available.
+## Elsewhere
 
-## Career focus
-
-Senior Data Analyst · Data Analytics · Business Intelligence · Analytics Engineering · Operations Analytics · Decision Support · Data Science
-
-Insurance analytics remains a secondary domain specialism.
+I also write about systems, leverage and decision-making. My author site for **BUILT: How Wealth Is Deliberately Constructed** is at [garethmackenzie.github.io](https://garethmackenzie.github.io/).
