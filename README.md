@@ -61,6 +61,10 @@ My background combines insurance and operations experience with analytics engine
 
 For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/).
 
+## Education
+
+- **University of South Africa (UNISA)** — Bachelor of Business Administration, currently registered for the 2026 academic year.
+
 ## Selected credentials
 
 - Microsoft Certified: Power BI Data Analyst Associate
