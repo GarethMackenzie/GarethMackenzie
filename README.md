@@ -6,6 +6,20 @@ I build governed analytical and decision systems using Power BI, Python and SQL,
 
 Johannesburg, South Africa · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/)
 
+Open to senior data, BI and analytics-engineering opportunities where technical delivery and business decision support need to work together.
+
+## Open-source software
+
+### [Analytics Release Gate](https://github.com/GarethMackenzie/analytics-release-gate)
+
+Open-source Python CLI for auditing analytics and Power BI repositories before release.
+
+`Python · CLI · PBIP/PBIR · TMDL · DAX checks · CI/CD · PyPI`
+
+**Engineering evidence:** 15 documented release rules across repository hygiene, Power BI project integrity, DAX heuristics, security signals, documentation and reproducibility, with structured console and JSON reporting.
+
+[Repository](https://github.com/GarethMackenzie/analytics-release-gate)
+
 ## Selected systems
 
 ### [Insurance Claims Intelligence](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi)
@@ -38,6 +52,16 @@ Lean Six Sigma DMAIC analytics for a fictional retail-banking onboarding and KYC
 
 [Repository](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma) · [Actions](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma/actions)
 
+### [Eskom Strategic Intelligence](https://github.com/GarethMackenzie/eskom-strategic-intelligence)
+
+Public-data analytics system covering municipal debt, electricity demand, tariffs, financial performance and physical-security risk, with explicit source lineage and separation of reported actuals, in-year observations and management scenarios.
+
+`Power BI · PBIP/PBIR · TMDL · DAX · Python · SQLite · Data Governance · GitHub Actions`
+
+**Engineering evidence:** 40 governed source records, 17 release-blocking data-quality checks, 32 automated tests, 34 explicit DAX measures, 5 report pages, deterministic rebuild validation and recorded Power BI Desktop runtime validation.
+
+[Repository](https://github.com/GarethMackenzie/eskom-strategic-intelligence) · [Actions](https://github.com/GarethMackenzie/eskom-strategic-intelligence/actions)
+
 > Portfolio projects use synthetic or public data and are designed to demonstrate engineering and analytical methods. They do not contain customer, policyholder or employer-confidential data.
 
 ## Engineering focus
@@ -63,7 +87,7 @@ For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-an
 
 ## Education
 
-- **University of South Africa (UNISA)** — Bachelor of Business Administration, currently registered for the 2026 academic year.
+- **University of South Africa (UNISA)** — Bachelor of Business Administration, in progress. Registered for the 2026 academic year.
 
 ## Selected credentials
 
