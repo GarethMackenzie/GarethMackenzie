@@ -94,6 +94,7 @@ For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-an
 - Microsoft Certified: Power BI Data Analyst Associate
 - Microsoft Certified: Azure Data Scientist Associate
 - Oracle Cloud Infrastructure Data Science Professional
+- Oracle Analytics Cloud 2025 Professional
 - Lean Six Sigma Black Belt
 
 ## Elsewhere
