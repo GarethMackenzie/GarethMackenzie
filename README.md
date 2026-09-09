@@ -18,7 +18,7 @@ Open-source Python CLI for auditing analytics and Power BI repositories before r
 
 **Engineering evidence:** 15 documented release rules across repository hygiene, Power BI project integrity, DAX heuristics, security signals, documentation and reproducibility, with structured console and JSON reporting.
 
-[Repository](https://github.com/GarethMackenzie/analytics-release-gate)
+[Repository](https://github.com/GarethMackenzie/analytics-release-gate) · [PyPI](https://pypi.org/project/analytics-release-gate/) · [v0.1.0 release](https://github.com/GarethMackenzie/analytics-release-gate/releases/tag/v0.1.0)
 
 ## Selected systems
 
