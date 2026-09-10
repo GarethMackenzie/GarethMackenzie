@@ -87,7 +87,7 @@ For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-an
 
 ## Education
 
-- **University of South Africa (UNISA)** — Bachelor of Business Administration, completed December 2025.
+- **University of South Africa (UNISA)** — Bachelor of Business Administration
 
 ## Selected credentials
 
