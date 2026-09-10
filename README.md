@@ -87,7 +87,7 @@ For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-an
 
 ## Education
 
-- **University of South Africa (UNISA)** — Bachelor of Business Administration, in progress. Registered for the 2026 academic year.
+- **University of South Africa (UNISA)** — Bachelor of Business Administration, completed December 2025.
 
 ## Selected credentials
 
