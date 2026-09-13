@@ -22,6 +22,16 @@ Open-source Python CLI for auditing analytics and Power BI repositories before r
 
 ## Selected systems
 
+### [Eskom Strategic Intelligence](https://github.com/GarethMackenzie/eskom-strategic-intelligence)
+
+Public-data analytics system covering municipal debt, electricity demand, tariffs, financial performance and physical-security risk, with explicit source lineage and separation of reported actuals, in-year observations and management scenarios.
+
+`Power BI · PBIP/PBIR · TMDL · DAX · Python · SQLite · Data Governance · GitHub Actions`
+
+**Engineering evidence:** 40 governed source records, 17 release-blocking data-quality checks, 32 automated tests, 34 explicit DAX measures, 5 report pages, deterministic rebuild validation and recorded Power BI Desktop runtime validation.
+
+[Repository](https://github.com/GarethMackenzie/eskom-strategic-intelligence) · [Actions](https://github.com/GarethMackenzie/eskom-strategic-intelligence/actions)
+
 ### [Insurance Claims Intelligence](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi)
 
 Source-controlled Power BI decision support for synthetic claims performance, financial exposure, service, operations and risk-based human review.
@@ -31,16 +41,6 @@ Source-controlled Power BI decision support for synthetic claims performance, fi
 **Engineering evidence:** deterministic data pipeline, governed star schema, editable semantic model, 79 explicit DAX measures, 8 report pages, automated QA and hosted CI.
 
 [Repository](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi) · [Actions](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi/actions)
-
-### [Motor Claims Risk Triage](https://github.com/GarethMackenzie/motor-claims-triage)
-
-Machine-learning decision support for capacity-constrained review prioritisation using synthetic claims data. The project compares multiple classification approaches through leakage-safe pipelines, stratified cross-validation and an untouched holdout set.
-
-`Python · scikit-learn · XGBoost · Model Evaluation · Decision Science · Governance · GitHub Actions`
-
-**Engineering evidence:** ranking metrics tied to review capacity, reproducible experiment orchestration, sensitive-feature governance, explainability, automated tests and hosted CI.
-
-[Repository](https://github.com/GarethMackenzie/motor-claims-triage) · [Actions](https://github.com/GarethMackenzie/motor-claims-triage/actions)
 
 ### [Banking Process Excellence](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma)
 
@@ -52,15 +52,15 @@ Lean Six Sigma DMAIC analytics for a fictional retail-banking onboarding and KYC
 
 [Repository](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma) · [Actions](https://github.com/GarethMackenzie/banking-process-excellence-lean-six-sigma/actions)
 
-### [Eskom Strategic Intelligence](https://github.com/GarethMackenzie/eskom-strategic-intelligence)
+### [Motor Claims Risk Triage](https://github.com/GarethMackenzie/motor-claims-triage)
 
-Public-data analytics system covering municipal debt, electricity demand, tariffs, financial performance and physical-security risk, with explicit source lineage and separation of reported actuals, in-year observations and management scenarios.
+Machine-learning decision support for capacity-constrained review prioritisation using synthetic claims data. The project compares multiple classification approaches through leakage-safe pipelines, stratified cross-validation and an untouched holdout set.
 
-`Power BI · PBIP/PBIR · TMDL · DAX · Python · SQLite · Data Governance · GitHub Actions`
+`Python · scikit-learn · XGBoost · Model Evaluation · Decision Science · Governance · GitHub Actions`
 
-**Engineering evidence:** 40 governed source records, 17 release-blocking data-quality checks, 32 automated tests, 34 explicit DAX measures, 5 report pages, deterministic rebuild validation and recorded Power BI Desktop runtime validation.
+**Engineering evidence:** ranking metrics tied to review capacity, reproducible experiment orchestration, sensitive-feature governance, explainability, automated tests and hosted CI.
 
-[Repository](https://github.com/GarethMackenzie/eskom-strategic-intelligence) · [Actions](https://github.com/GarethMackenzie/eskom-strategic-intelligence/actions)
+[Repository](https://github.com/GarethMackenzie/motor-claims-triage) · [Actions](https://github.com/GarethMackenzie/motor-claims-triage/actions)
 
 > Portfolio projects use synthetic or public data and are designed to demonstrate engineering and analytical methods. They do not contain customer, policyholder or employer-confidential data.
 
