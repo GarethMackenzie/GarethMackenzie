@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 92" role="img" aria-labelledby="title desc">
+  <title id="title">Animated analytics signal</title>
+  <desc id="desc">A restrained data-signal line with moving analytical nodes.</desc>
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f81f7" stop-opacity="0.25"/>
+      <stop offset="35%" stop-color="#58a6ff" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#79c0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2f81f7" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke="#8b949e" stroke-opacity="0.12" stroke-width="1">
+    <path d="M0 18H960M0 46H960M0 74H960"/>
+    <path d="M120 0V92M240 0V92M360 0V92M480 0V92M600 0V92M720 0V92M840 0V92"/>
+  </g>
+
+  <path d="M0 58 C55 58 72 56 112 56 S160 57 196 50 S246 27 287 32 S338 69 388 61 S435 40 477 43 S526 64 571 57 S620 24 670 31 S722 59 768 51 S817 38 855 42 S912 48 960 33"
+        fill="none" stroke="#30363d" stroke-opacity="0.55" stroke-width="2"/>
+
+  <path d="M0 58 C55 58 72 56 112 56 S160 57 196 50 S246 27 287 32 S338 69 388 61 S435 40 477 43 S526 64 571 57 S620 24 670 31 S722 59 768 51 S817 38 855 42 S912 48 960 33"
+        fill="none" stroke="url(#signal)" stroke-width="2.4" stroke-linecap="round"
+        stroke-dasharray="120 840" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="960" to="-960" dur="7.5s" repeatCount="indefinite"/>
+  </path>
+
+  <g fill="#58a6ff" filter="url(#glow)">
+    <circle r="3.4">
+      <animateMotion dur="6.8s" repeatCount="indefinite" path="M0 58 C55 58 72 56 112 56 S160 57 196 50 S246 27 287 32 S338 69 388 61 S435 40 477 43 S526 64 571 57 S620 24 670 31 S722 59 768 51 S817 38 855 42 S912 48 960 33"/>
+    </circle>
+    <circle r="2.5" opacity="0.7">
+      <animateMotion dur="6.8s" begin="-3.4s" repeatCount="indefinite" path="M0 58 C55 58 72 56 112 56 S160 57 196 50 S246 27 287 32 S338 69 388 61 S435 40 477 43 S526 64 571 57 S620 24 670 31 S722 59 768 51 S817 38 855 42 S912 48 960 33"/>
+    </circle>
+  </g>
+
+  <g fill="#8b949e" opacity="0.45">
+    <circle cx="196" cy="50" r="2.2"/><circle cx="287" cy="32" r="2.2"/>
+    <circle cx="477" cy="43" r="2.2"/><circle cx="670" cy="31" r="2.2"/>
+    <circle cx="855" cy="42" r="2.2"/>
+  </g>
+</svg>
