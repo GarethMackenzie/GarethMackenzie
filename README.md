@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-signal.svg" alt="Animated analytics signal" width="100%" />
+</p>
+
 # Gareth Mackenzie
 
 **Data Analyst | Power BI · SQL · Python**  
