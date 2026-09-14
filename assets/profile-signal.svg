@@ -1,93 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 118" role="img" aria-labelledby="title desc">
-  <title id="title">Animated matrix-style analytics signal</title>
-  <desc id="desc">A restrained digital rain background with an animated analytical signal line and moving data nodes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 140" role="img" aria-labelledby="title desc">
+  <title id="title">Matrix analytics banner</title>
+  <desc id="desc">A professional matrix-style digital rain banner with an analytical signal line.</desc>
+
   <defs>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1f6f43" stop-opacity="0.18"/>
-      <stop offset="35%" stop-color="#3fb950" stop-opacity="0.95"/>
-      <stop offset="70%" stop-color="#56d364" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#1f6f43" stop-opacity="0.16"/>
+      <stop offset="0%" stop-color="#238636" stop-opacity="0.35"/>
+      <stop offset="38%" stop-color="#3fb950" stop-opacity="1"/>
+      <stop offset="72%" stop-color="#56d364" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.28"/>
     </linearGradient>
-    <linearGradient id="rainFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#56d364" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#56d364" stop-opacity="0.10"/>
-      <stop offset="70%" stop-color="#3fb950" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    <linearGradient id="columnFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0.72"/>
+      <stop offset="45%" stop-color="#3fb950" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.06"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
-      <feGaussianBlur stdDeviation="2.1" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-40%" y="-120%" width="180%" height="340%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="rainClip"><rect x="0" y="0" width="960" height="118" rx="8"/></clipPath>
+    <clipPath id="clip"><rect width="960" height="140" rx="8"/></clipPath>
   </defs>
 
-  <g fill="none" stroke="#8b949e" stroke-opacity="0.08" stroke-width="1">
-    <path d="M0 22H960M0 59H960M0 96H960"/>
-    <path d="M120 0V118M240 0V118M360 0V118M480 0V118M600 0V118M720 0V118M840 0V118"/>
+  <rect width="960" height="140" rx="8" fill="#0d1117"/>
+
+  <g fill="none" stroke="#30363d" stroke-opacity="0.32" stroke-width="1">
+    <path d="M0 35H960M0 70H960M0 105H960"/>
+    <path d="M96 0V140M192 0V140M288 0V140M384 0V140M480 0V140M576 0V140M672 0V140M768 0V140M864 0V140"/>
   </g>
 
-  <g clip-path="url(#rainClip)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#3fb950">
-    <g opacity="0.17">
-      <text x="38" y="-54">0 1 0 1 1 0 0 1 0 1 1 0 1 0</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -20" to="0 185" dur="8.8s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.11">
-      <text x="146" y="-88">1 0 1 0 0 1 1 0 1 1 0 0 1 0</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -35" to="0 205" dur="11.6s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.15">
-      <text x="264" y="-62">0 0 1 1 0 1 0 1 1 0 1 0 0 1</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -28" to="0 198" dur="9.9s" begin="-3.2s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.10">
-      <text x="382" y="-96">1 1 0 0 1 0 1 0 0 1 1 0 1 0</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -22" to="0 220" dur="12.8s" begin="-6s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.16">
-      <text x="500" y="-70">0 1 1 0 1 0 0 1 1 0 0 1 0 1</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -26" to="0 200" dur="9.4s" begin="-1.8s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.12">
-      <text x="618" y="-82">1 0 0 1 0 1 1 0 0 1 0 1 1 0</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -32" to="0 214" dur="11.2s" begin="-4.5s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.15">
-      <text x="736" y="-58">0 1 0 0 1 1 0 1 0 0 1 1 0 1</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -24" to="0 196" dur="9.1s" begin="-2.7s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.09">
-      <text x="854" y="-104">1 1 0 1 0 0 1 0 1 1 0 0 1 0</text>
-      <animateTransform attributeName="transform" type="translate" from="0 -38" to="0 224" dur="13.4s" begin="-7s" repeatCount="indefinite"/>
-    </g>
+  <!-- Matrix rain is deliberately visible in the first/static frame so GitHub renders it reliably. -->
+  <g clip-path="url(#clip)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="url(#columnFade)">
+    <text x="26" y="11" opacity="0.55"><tspan x="26" dy="0">1</tspan><tspan x="26" dy="13">0</tspan><tspan x="26" dy="13">1</tspan><tspan x="26" dy="13">1</tspan><tspan x="26" dy="13">0</tspan><tspan x="26" dy="13">1</tspan><tspan x="26" dy="13">0</tspan><tspan x="26" dy="13">0</tspan><tspan x="26" dy="13">1</tspan></text>
+    <text x="84" y="-9" opacity="0.30"><tspan x="84" dy="0">0</tspan><tspan x="84" dy="13">1</tspan><tspan x="84" dy="13">0</tspan><tspan x="84" dy="13">1</tspan><tspan x="84" dy="13">1</tspan><tspan x="84" dy="13">0</tspan><tspan x="84" dy="13">1</tspan><tspan x="84" dy="13">0</tspan></text>
+    <text x="142" y="21" opacity="0.46"><tspan x="142" dy="0">1</tspan><tspan x="142" dy="13">1</tspan><tspan x="142" dy="13">0</tspan><tspan x="142" dy="13">0</tspan><tspan x="142" dy="13">1</tspan><tspan x="142" dy="13">0</tspan><tspan x="142" dy="13">1</tspan></text>
+    <text x="206" y="2" opacity="0.38"><tspan x="206" dy="0">0</tspan><tspan x="206" dy="13">1</tspan><tspan x="206" dy="13">1</tspan><tspan x="206" dy="13">0</tspan><tspan x="206" dy="13">1</tspan><tspan x="206" dy="13">0</tspan><tspan x="206" dy="13">0</tspan><tspan x="206" dy="13">1</tspan></text>
+    <text x="276" y="30" opacity="0.58"><tspan x="276" dy="0">1</tspan><tspan x="276" dy="13">0</tspan><tspan x="276" dy="13">1</tspan><tspan x="276" dy="13">0</tspan><tspan x="276" dy="13">1</tspan><tspan x="276" dy="13">1</tspan></text>
+    <text x="346" y="9" opacity="0.32"><tspan x="346" dy="0">0</tspan><tspan x="346" dy="13">0</tspan><tspan x="346" dy="13">1</tspan><tspan x="346" dy="13">1</tspan><tspan x="346" dy="13">0</tspan><tspan x="346" dy="13">1</tspan><tspan x="346" dy="13">0</tspan></text>
+    <text x="418" y="20" opacity="0.52"><tspan x="418" dy="0">1</tspan><tspan x="418" dy="13">0</tspan><tspan x="418" dy="13">0</tspan><tspan x="418" dy="13">1</tspan><tspan x="418" dy="13">1</tspan><tspan x="418" dy="13">0</tspan></text>
+    <text x="492" y="-2" opacity="0.34"><tspan x="492" dy="0">0</tspan><tspan x="492" dy="13">1</tspan><tspan x="492" dy="13">0</tspan><tspan x="492" dy="13">0</tspan><tspan x="492" dy="13">1</tspan><tspan x="492" dy="13">1</tspan><tspan x="492" dy="13">0</tspan><tspan x="492" dy="13">1</tspan></text>
+    <text x="568" y="26" opacity="0.60"><tspan x="568" dy="0">1</tspan><tspan x="568" dy="13">1</tspan><tspan x="568" dy="13">0</tspan><tspan x="568" dy="13">1</tspan><tspan x="568" dy="13">0</tspan><tspan x="568" dy="13">0</tspan></text>
+    <text x="644" y="6" opacity="0.36"><tspan x="644" dy="0">0</tspan><tspan x="644" dy="13">1</tspan><tspan x="644" dy="13">1</tspan><tspan x="644" dy="13">0</tspan><tspan x="644" dy="13">0</tspan><tspan x="644" dy="13">1</tspan><tspan x="644" dy="13">0</tspan></text>
+    <text x="720" y="17" opacity="0.50"><tspan x="720" dy="0">1</tspan><tspan x="720" dy="13">0</tspan><tspan x="720" dy="13">1</tspan><tspan x="720" dy="13">1</tspan><tspan x="720" dy="13">0</tspan><tspan x="720" dy="13">1</tspan></text>
+    <text x="798" y="-7" opacity="0.30"><tspan x="798" dy="0">0</tspan><tspan x="798" dy="13">0</tspan><tspan x="798" dy="13">1</tspan><tspan x="798" dy="13">0</tspan><tspan x="798" dy="13">1</tspan><tspan x="798" dy="13">1</tspan><tspan x="798" dy="13">0</tspan><tspan x="798" dy="13">1</tspan></text>
+    <text x="876" y="23" opacity="0.55"><tspan x="876" dy="0">1</tspan><tspan x="876" dy="13">0</tspan><tspan x="876" dy="13">0</tspan><tspan x="876" dy="13">1</tspan><tspan x="876" dy="13">0</tspan><tspan x="876" dy="13">1</tspan></text>
+    <text x="930" y="8" opacity="0.33"><tspan x="930" dy="0">0</tspan><tspan x="930" dy="13">1</tspan><tspan x="930" dy="13">1</tspan><tspan x="930" dy="13">0</tspan><tspan x="930" dy="13">1</tspan><tspan x="930" dy="13">0</tspan></text>
   </g>
 
-  <rect x="0" y="0" width="960" height="118" fill="url(#rainFade)" opacity="0.32"/>
+  <path d="M0 94 C58 94 78 91 122 91 S174 94 214 84 S267 53 312 59 S366 105 420 95 S468 70 514 74 S563 100 612 90 S666 48 720 57 S778 93 826 82 S881 68 920 73 S946 74 960 69"
+        fill="none" stroke="#30363d" stroke-opacity="0.85" stroke-width="2"/>
 
-  <path d="M0 78 C55 78 72 76 112 76 S160 77 196 70 S246 47 287 52 S338 89 388 81 S435 60 477 63 S526 84 571 77 S620 44 670 51 S722 79 768 71 S817 58 855 62 S912 68 960 53"
-        fill="none" stroke="#30363d" stroke-opacity="0.50" stroke-width="2"/>
-
-  <path d="M0 78 C55 78 72 76 112 76 S160 77 196 70 S246 47 287 52 S338 89 388 81 S435 60 477 63 S526 84 571 77 S620 44 670 51 S722 79 768 71 S817 58 855 62 S912 68 960 53"
-        fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round"
-        stroke-dasharray="130 830" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" from="960" to="-960" dur="7.2s" repeatCount="indefinite"/>
+  <path d="M0 94 C58 94 78 91 122 91 S174 94 214 84 S267 53 312 59 S366 105 420 95 S468 70 514 74 S563 100 612 90 S666 48 720 57 S778 93 826 82 S881 68 920 73 S946 74 960 69"
+        fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="145 815" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="960" to="-960" dur="7s" repeatCount="indefinite"/>
   </path>
 
-  <g fill="#56d364" filter="url(#glow)">
-    <circle r="3.4">
-      <animateMotion dur="6.6s" repeatCount="indefinite" path="M0 78 C55 78 72 76 112 76 S160 77 196 70 S246 47 287 52 S338 89 388 81 S435 60 477 63 S526 84 571 77 S620 44 670 51 S722 79 768 71 S817 58 855 62 S912 68 960 53"/>
-    </circle>
-    <circle r="2.4" opacity="0.68">
-      <animateMotion dur="6.6s" begin="-3.3s" repeatCount="indefinite" path="M0 78 C55 78 72 76 112 76 S160 77 196 70 S246 47 287 52 S338 89 388 81 S435 60 477 63 S526 84 571 77 S620 44 670 51 S722 79 768 71 S817 58 855 62 S912 68 960 53"/>
-    </circle>
+  <g fill="#7ee787" filter="url(#glow)">
+    <circle cx="312" cy="59" r="3.3"/>
+    <circle cx="514" cy="74" r="2.7" opacity="0.75"/>
+    <circle cx="720" cy="57" r="3.2"/>
+    <circle cx="826" cy="82" r="2.4" opacity="0.7"/>
   </g>
 
-  <g fill="#8b949e" opacity="0.42">
-    <circle cx="196" cy="70" r="2.2"/><circle cx="287" cy="52" r="2.2"/>
-    <circle cx="477" cy="63" r="2.2"/><circle cx="670" cy="51" r="2.2"/>
-    <circle cx="855" cy="62" r="2.2"/>
-  </g>
-
-  <rect x="0" y="0" width="960" height="2" fill="#56d364" opacity="0.05">
-    <animate attributeName="y" values="0;116;0" dur="9s" repeatCount="indefinite"/>
+  <rect x="0" y="0" width="960" height="2" fill="#7ee787" opacity="0.12">
+    <animate attributeName="y" values="0;138;0" dur="8s" repeatCount="indefinite"/>
   </rect>
 </svg>
