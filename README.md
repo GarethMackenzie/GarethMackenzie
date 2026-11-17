@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-signal.svg" alt="Animated analytics signal" width="100%" />
+  <img src="./assets/profile-signal.svg" alt="Gareth Mackenzie — From data to better decisions. Power BI, SQL and Python; source, validate, decide." width="100%" />
 </p>
 
 # Gareth Mackenzie

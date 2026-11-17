@@ -1,103 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 130" role="img" aria-labelledby="title desc">
-  <title id="title">Welcome to Gareth Mackenzie's portfolio</title>
-  <desc id="desc">Minimal professional analytics portfolio header.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Gareth Mackenzie — From data to better decisions</title>
+  <desc id="desc">An illustrative flow connects source data, validated models and decision support. Power BI, SQL and Python.</desc>
   <defs>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#238636" stop-opacity="0"/>
-      <stop offset="32%" stop-color="#3fb950" stop-opacity="0.85"/>
-      <stop offset="50%" stop-color="#7ee787"/>
-      <stop offset="68%" stop-color="#3fb950" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#238636" stop-opacity="0"/>
-    </linearGradient>
-
-    <filter id="glow" x="-60%" y="-150%" width="220%" height="400%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#152c3d"/></linearGradient>
+    <linearGradient id="flow"><stop stop-color="#4da8ef"/><stop offset="1" stop-color="#66e3c4"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#93b4cb" stroke-opacity=".06"/></pattern>
   </defs>
-
-  <rect width="960" height="130" rx="9" fill="#0d1117"/>
-
-  <g
-    font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-    font-size="8"
-    fill="#3fb950"
-    opacity="0.12">
-
-    <text x="70" y="18">0 1 1 0 1</text>
-    <text x="245" y="25">1 0 1 0</text>
-    <text x="408" y="15">0 1 0 1 1</text>
-    <text x="608" y="23">1 1 0 1</text>
-    <text x="786" y="17">0 1 1 0 0</text>
+  <rect width="1200" height="400" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="20" fill="url(#grid)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="48" y="44" width="28" height="4" rx="2" fill="#66e3c4"/>
+    <text x="90" y="53" fill="#b6c9d9" font-size="19" letter-spacing="3">GARETH MACKENZIE</text>
+    <text x="48" y="124" fill="#f4f8fc" font-size="48" font-weight="700">From data to</text>
+    <text x="48" y="183" fill="#66e3c4" font-size="48" font-weight="700">better decisions.</text>
+    <text x="48" y="230" fill="#b6c9d9" font-size="21">Analytics. Engineering. Business insight.</text>
+    <g fill="#112b3b" stroke="#355668"><rect x="48" y="272" width="116" height="42" rx="21"/><rect x="176" y="272" width="80" height="42" rx="21"/><rect x="268" y="272" width="110" height="42" rx="21"/></g>
+    <g fill="#e4edf5" font-size="18" text-anchor="middle"><text x="106" y="299">Power BI</text><text x="216" y="299">SQL</text><text x="323" y="299">Python</text></g>
+    <text x="48" y="362" fill="#9cb4c7" font-size="17">Reproducible systems. Explicit assumptions.</text>
+    <g fill="none" stroke="url(#flow)" stroke-width="2.5"><path d="M674 126H716Q736 126 736 150V192H782"/><path d="M674 198H782"/><path d="M674 270H716Q736 270 736 246V204H782"/><path d="M870 198H916"/></g>
+    <g fill="#142c40" stroke="#416079"><rect x="590" y="99" width="84" height="54" rx="10"/><rect x="590" y="171" width="84" height="54" rx="10"/><rect x="590" y="243" width="84" height="54" rx="10"/></g>
+    <g stroke="#86bce5" stroke-width="3" stroke-linecap="round"><path d="M610 117H652M610 134H640M610 189H652M610 206H632M610 261H652M610 278H644"/></g>
+    <rect x="782" y="154" width="88" height="88" rx="22" fill="#153b42" stroke="#66e3c4" stroke-width="2"/>
+    <path d="m806 198 14 14 27-29" stroke="#83f2d4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="916" y="112" width="236" height="172" rx="15" fill="#0e2232" stroke="#416079"/>
+    <g fill="#b6c9d9"><circle cx="934" cy="130" r="3"/><circle cx="945" cy="130" r="3"/><circle cx="956" cy="130" r="3"/></g>
+    <path d="M934 146H1134M940 261H1128" stroke="#355668"/>
+    <g fill="#4d9bc4"><rect x="946" y="225" width="22" height="30" rx="3"/><rect x="982" y="207" width="22" height="48" rx="3"/><rect x="1018" y="220" width="22" height="35" rx="3"/><rect x="1054" y="184" width="22" height="71" rx="3"/><rect x="1090" y="171" width="22" height="84" rx="3"/></g>
+    <path d="m949 205 44-26 34 13 38-33 40 3" fill="none" stroke="#66e3c4" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#b6c9d9" font-size="17" text-anchor="middle"><text x="632" y="330">SOURCE</text><text x="826" y="330">VALIDATE</text><text x="1034" y="330">DECIDE</text></g>
   </g>
-
-  <text
-    x="480"
-    y="45"
-    text-anchor="middle"
-    font-family="Segoe UI,Arial,sans-serif"
-    font-size="24"
-    font-weight="700"
-    letter-spacing="3.4"
-    fill="#f0f6fc">
-    WELCOME TO MY PORTFOLIO
-  </text>
-
-  <text
-    x="480"
-    y="66"
-    text-anchor="middle"
-    font-family="Segoe UI,Arial,sans-serif"
-    font-size="10"
-    font-weight="500"
-    letter-spacing="1.5"
-    fill="#8b949e">
-    ANALYTICS • BUSINESS INTELLIGENCE • DECISION SYSTEMS
-  </text>
-
-  <line
-    x1="150"
-    y1="84"
-    x2="810"
-    y2="84"
-    stroke="#30363d"
-    stroke-width="1"/>
-
-  <path
-    d="M150 103
-       C210 103 236 102 278 102
-       S334 103 370 94
-       S414 86 449 93
-       S492 110 532 101
-       S578 87 620 94
-       S680 104 724 99
-       S774 96 810 93"
-    fill="none"
-    stroke="#30363d"
-    stroke-width="2"/>
-
-  <path
-    d="M150 103
-       C210 103 236 102 278 102
-       S334 103 370 94
-       S414 86 449 93
-       S492 110 532 101
-       S578 87 620 94
-       S680 104 724 99
-       S774 96 810 93"
-    fill="none"
-    stroke="url(#signal)"
-    stroke-width="2.8"
-    stroke-linecap="round"
-    stroke-dasharray="110 550"
-    filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" from="660" to="-660" dur="7.5s" repeatCount="indefinite"/>
-  </path>
-
-  <circle cx="449" cy="93" r="2.8" fill="#7ee787" filter="url(#glow)"/>
-  <circle cx="620" cy="94" r="2.4" fill="#56d364" opacity="0.7"/>
 </svg>
