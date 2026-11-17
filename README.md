@@ -4,22 +4,25 @@
 
 # Gareth Mackenzie
 
-**Data Analyst | Power BI · SQL · Python**  
-I build governed analytics, executive intelligence and automated decision-support systems with a focus on reproducibility, data quality and clear business interpretation.
+**Analytics Engineering · Business Intelligence · Operational Decision Support**
 
-Johannesburg, South Africa · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/) · [Portfolio / author site](https://garethmackenzie.github.io/)
+I build reproducible analytical systems that make data quality, assumptions and release decisions explicit.
+
+Johannesburg, South Africa · [LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/)
 
 ## Flagship projects
 
-### 01 — [Eskom Strategic Intelligence](https://github.com/GarethMackenzie/eskom-strategic-intelligence)
+### 01 — [Operations Decision Lab](https://github.com/GarethMackenzie/operations-decision-lab)
 
-Executive public-data analytics system covering municipal debt, electricity demand, tariffs, financial performance and physical-security risk.
+**Question:** Can a small team's picking and packing allocation meet declared demand, budget and service constraints?
 
-`Power BI · PBIP/PBIR · TMDL · DAX · Python · SQLite`
+**Decision:** Compare supported allocations, including an explicit **NO CONFIRMED FEASIBLE OPTION** outcome.
 
-**Evidence:** 40 governed source records · 17 release-blocking data-quality checks · 32 automated tests · 34 explicit DAX measures · 5 report pages · deterministic rebuild validation.
+**Evidence:** reproducible simulation reports, separate selection and evaluation, sensitivity analysis and an independent scheduling reference in tests.
 
-[Repository](https://github.com/GarethMackenzie/eskom-strategic-intelligence) · [Actions](https://github.com/GarethMackenzie/eskom-strategic-intelligence/actions)
+**Boundary:** synthetic local research prototype; external staffing impact has not been validated.
+
+[Repository](https://github.com/GarethMackenzie/operations-decision-lab) · [Architecture](https://github.com/GarethMackenzie/operations-decision-lab/blob/main/docs/ARCHITECTURE.md) · [Evaluation protocol](https://github.com/GarethMackenzie/operations-decision-lab/blob/main/CASE_STUDY.md)
 
 ### 02 — [Analytics Release Gate](https://github.com/GarethMackenzie/analytics-release-gate)
 
@@ -31,7 +34,17 @@ Open-source Python CLI for auditing analytics and Power BI repositories before r
 
 [Repository](https://github.com/GarethMackenzie/analytics-release-gate) · [PyPI](https://pypi.org/project/analytics-release-gate/) · [v0.1.0 release](https://github.com/GarethMackenzie/analytics-release-gate/releases/tag/v0.1.0)
 
-### 03 — [Insurance Claims Intelligence](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi)
+### 03 — [Eskom Strategic Intelligence](https://github.com/GarethMackenzie/eskom-strategic-intelligence)
+
+Executive public-data analytics system covering municipal debt, electricity demand, tariffs, financial performance and physical-security risk.
+
+`Power BI · PBIP/PBIR · TMDL · DAX · Python · SQLite`
+
+**Evidence:** 40 governed source records · 17 release-blocking data-quality checks · 32 automated tests · 34 explicit DAX measures · 5 report pages · deterministic rebuild validation.
+
+[Repository](https://github.com/GarethMackenzie/eskom-strategic-intelligence) · [Actions](https://github.com/GarethMackenzie/eskom-strategic-intelligence/actions)
+
+### 04 — [Insurance Claims Intelligence](https://github.com/GarethMackenzie/insurance-claims-intelligence-powerbi)
 
 Source-controlled Power BI decision support for synthetic claims performance, financial exposure, service, operations and risk-based human review.
 
@@ -78,6 +91,10 @@ For full career chronology, see [LinkedIn](https://www.linkedin.com/in/gareth-an
 - Oracle Analytics Cloud 2025 Professional
 - Lean Six Sigma Black Belt
 
+## Writing and publishing
+
+[Author website](https://garethmackenzie.github.io/) — books and essays, separate from the engineering projects above.
+
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/) · [GitHub](https://github.com/GarethMackenzie) · [Website](https://garethmackenzie.github.io/)
+[LinkedIn](https://www.linkedin.com/in/gareth-andrew-mackenzie-50407b52/) · [GitHub](https://github.com/GarethMackenzie)
